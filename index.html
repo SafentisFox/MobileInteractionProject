@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="video-and-chat-container">
+            <!-- Youtube Video -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NqAOGduIFbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div id="chat-container">
+                <div id="chat-title">
+                    Chat
+                </div>
+                <div id="chat-box">
+                    <div class="chat-item">
+                        <div class="chat-item-timestamp">16:10</div>
+                        <div class="chat-item-content">User10: Hello there!</div>
+                    </div>
+                    <div class="chat-item">
+                        <div class="chat-item-timestamp">16:10</div>
+                        <div class="chat-item-content">User10: Nice music</div>
+                    </div>
+                    <div class="chat-item">
+                        <div class="chat-item-timestamp">16:15</div>
+                        <div class="chat-item-content">User10: Is this youtube?</div>
+                    </div>
+                    <div class="chat-item">
+                        <div class="chat-item-timestamp">16:16</div>
+                        <div class="chat-item-content">User7: No, this is spotify...</div>
+                    </div>
+                </div>
+                <div id="chat-input-container">
+                    <textarea type="text" id="chat-text-input"></textarea>
+                    <input type="button" value="" id="chat-send-button">
+                </div>
+            </div>
+        </div>
+        <div id="user-area-container">
+            <div class="user-container"><img src="/Resources/Images/placeholder-profile.jpg" alt=""><a href="">User 0</a></div>
+            <div class="user-container"><img src="/Resources/Images/placeholder-profile.jpg" alt=""><a href="">User6</a></div>
+            <div class="user-container"><img src="/Resources/Images/placeholder-profile.jpg" alt=""><a href="">User7</a></div>
+            <div class="user-container"><img src="/Resources/Images/placeholder-profile.jpg" alt=""><a href="">User10</a></div>
+        </div>
+    </div>
+</body>
+</html> 
